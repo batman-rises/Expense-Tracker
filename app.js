@@ -5,7 +5,7 @@ const dateIP=document.querySelector('#date');
 const categoryIP=document.querySelector('#category');
 const expenseList=document.querySelector('#content');
 
-const total=document.querySelector('.total');
+const total=document.querySelector('h2');
 let totalExpenses = 0;
 
 a.addEventListener("submit",function(e){
